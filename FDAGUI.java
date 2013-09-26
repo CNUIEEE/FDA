@@ -110,6 +110,7 @@ panelTop.add(testLabel);
 //        public  void    windowIconified(WindowEvent arg0){} 
 //        public  void    windowOpened(WindowEvent    arg0){} 
 //    }); 
+// i'm testing again
    // frame.setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
     public static void main (String args[])
     {
