@@ -15,7 +15,7 @@ import javax.swing.JTextField;
 import javax.swing.JLabel;
 public class FDAGUI
 {
-    
+    //im just testing the github windows client
     public static JTextField  testField, kField;
     public static JLabel testLabel;
     public static GridLayout grid = new GridLayout(3,3);
@@ -54,10 +54,10 @@ panelTop.setLayout(grid);
 panelMiddle.setLayout(grid);
 panelBottom.setLayout(grid);
 
-frame.add(panelTop);  
-frame.add(panelMiddle);  
+frame.add(panelTop);
+frame.add(panelMiddle);
 frame.add(panelBottom);
-// 
+//
 //panelTop.setLayout(new BorderLayout());
 //panelTop.add(panelTopTop, BorderLayout.NORTH);
 //panelTop.add(panelTopMiddle, BorderLayout.CENTER);
@@ -68,7 +68,7 @@ frame.add(panelBottom);
 //panelMiddle.add(panelMiddleMiddle, BorderLayout.CENTER);
 //panelMiddle.add(panelMiddleBottom, BorderLayout.SOUTH);
 //
-//panelBottom.setLayout(new BorderLayout()); 
+//panelBottom.setLayout(new BorderLayout());
 //panelBottom.add(panelBottomTop, BorderLayout.NORTH);
 //panelBottom.add(panelBottomMiddle, BorderLayout.CENTER);
 //panelBottom.add(panelBottomBottom, BorderLayout.SOUTH);
@@ -76,7 +76,7 @@ frame.add(panelBottom);
 frame.add(panel);
 
  testField = new JTextField("text",30);
- 
+
 panelMiddle.add(testField);
 
 kField = new JTextField(30);
@@ -94,22 +94,22 @@ panelTop.add(testLabel);
     {
        public void actionPerformed(ActionEvent e)
        {
-        
+
         System.out.println("WORK");
         FDAGUI.testField.setText("");
-        
+
        }
-    }  
-  
-//    void addWindowListener(  new WindowListener()    {   
-//        public  void    windowActivated(WindowEvent arg0){} 
-//        public  void    windowClosed(WindowEvent arg0){}    
-//        public  void    windowClosing(WindowEvent arg0)        
-//        public  void    windowDeactivated(WindowEvent arg0){}   
-//        public  void    windowDeiconified(WindowEvent arg0){}   
-//        public  void    windowIconified(WindowEvent arg0){} 
-//        public  void    windowOpened(WindowEvent    arg0){} 
-//    }); 
+    }
+
+//    void addWindowListener(  new WindowListener()    {
+//        public  void    windowActivated(WindowEvent arg0){}
+//        public  void    windowClosed(WindowEvent arg0){}
+//        public  void    windowClosing(WindowEvent arg0)
+//        public  void    windowDeactivated(WindowEvent arg0){}
+//        public  void    windowDeiconified(WindowEvent arg0){}
+//        public  void    windowIconified(WindowEvent arg0){}
+//        public  void    windowOpened(WindowEvent    arg0){}
+//    });
 // i'm testing again
    // frame.setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
     public static void main (String args[])
